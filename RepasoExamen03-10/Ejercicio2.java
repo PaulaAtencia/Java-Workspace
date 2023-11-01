@@ -1,13 +1,17 @@
+import java.util.Scanner;
+
 public class Ejercicio2 {
 
   public static void main(String[] args) {
     System.out.println(
-      "Inserta una función que a partir de un número nos devuelva el día de la semana"
+      "Inserta una función que a partir de un número nos devuelva el día de la semana:"
     );
-    int día = Integer.parseInt(System.console().readLine());
+    int día;
+    Scanner s = new Scanner(System.in);
+    día = s.nextInt();
 
     String díaDelasemana;
-
+    //He puesto tilde, pero si llegase a dar error solo hay que quitarle las tildes a "día"
     switch (día) {
       case 1:
         díaDelasemana = "Lunes";
@@ -29,9 +33,11 @@ public class Ejercicio2 {
         break;
       case 7:
         díaDelasemana = "Domingo";
+        break;
       default:
         díaDelasemana = "No existe ese día";
     }
     System.out.println("Día" + día + ": " + díaDelasemana);
+    s.close();
   }
 }
