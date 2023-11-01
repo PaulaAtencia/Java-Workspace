@@ -1,0 +1,336 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Ejercicio1",
+            "request": "launch",
+            "mainClass": "Ejercicio1",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "name": "Launch Edge",
+            "request": "launch",
+            "type": "msedge",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio3",
+            "request": "launch",
+            "mainClass": "Ejercicio3",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio4",
+            "request": "launch",
+            "mainClass": "Ejercicio4",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio7",
+            "request": "launch",
+            "mainClass": "Ejercicio7",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio8$Ejercicio8_1",
+            "request": "launch",
+            "mainClass": "Ejercicio8$Ejercicio8_1",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio9",
+            "request": "launch",
+            "mainClass": "Ejercicio9",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t1_5",
+            "request": "launch",
+            "mainClass": "t1_5",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t1_6",
+            "request": "launch",
+            "mainClass": "t1_6",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t1_8",
+            "request": "launch",
+            "mainClass": "t1_8",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t2",
+            "request": "launch",
+            "mainClass": "t2",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t2_2",
+            "request": "launch",
+            "mainClass": "t2_2",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t2_3",
+            "request": "launch",
+            "mainClass": "t2_3",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t2_4",
+            "request": "launch",
+            "mainClass": "t2_4",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t2_5",
+            "request": "launch",
+            "mainClass": "t2_5",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t2_6",
+            "request": "launch",
+            "mainClass": "t2_6",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t2_7",
+            "request": "launch",
+            "mainClass": "t2_7",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t2_8",
+            "request": "launch",
+            "mainClass": "t2_8",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t3_1",
+            "request": "launch",
+            "mainClass": "t3_1",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t3_10",
+            "request": "launch",
+            "mainClass": "t3_10",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t3_11",
+            "request": "launch",
+            "mainClass": "t3_11",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t3_12",
+            "request": "launch",
+            "mainClass": "t3_12",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t3_2",
+            "request": "launch",
+            "mainClass": "t3_2",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t3_3",
+            "request": "launch",
+            "mainClass": "t3_3",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t3_4",
+            "request": "launch",
+            "mainClass": "t3_4",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t3_5",
+            "request": "launch",
+            "mainClass": "t3_5",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t3_6",
+            "request": "launch",
+            "mainClass": "t3_6",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t3_7",
+            "request": "launch",
+            "mainClass": "t3_7",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t3_8",
+            "request": "launch",
+            "mainClass": "t3_8",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t3_9",
+            "request": "launch",
+            "mainClass": "t3_9",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t4_1",
+            "request": "launch",
+            "mainClass": "t4_1",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t4_11",
+            "request": "launch",
+            "mainClass": "t4_11",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t4_12",
+            "request": "launch",
+            "mainClass": "t4_12",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t4_13",
+            "request": "launch",
+            "mainClass": "t4_13",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t4_14",
+            "request": "launch",
+            "mainClass": "t4_14",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t4_15",
+            "request": "launch",
+            "mainClass": "t4_15",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t4_16",
+            "request": "launch",
+            "mainClass": "t4_16",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t4_17",
+            "request": "launch",
+            "mainClass": "t4_17",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t4_18",
+            "request": "launch",
+            "mainClass": "t4_18",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t4_19",
+            "request": "launch",
+            "mainClass": "t4_19",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t4_2",
+            "request": "launch",
+            "mainClass": "t4_2",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t4_3",
+            "request": "launch",
+            "mainClass": "t4_3",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t4_4",
+            "request": "launch",
+            "mainClass": "t4_4",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t4_5",
+            "request": "launch",
+            "mainClass": "t4_5",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t4_7",
+            "request": "launch",
+            "mainClass": "t4_7",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t4_9",
+            "request": "launch",
+            "mainClass": "t4_9",
+            "projectName": "Java-Workspace_9c3df4c0"
+        }
+    ]
+}
