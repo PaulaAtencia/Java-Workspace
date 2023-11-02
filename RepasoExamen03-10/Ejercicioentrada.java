@@ -9,7 +9,7 @@ public class Ejercicioentrada {
     precioGeneral = s.nextDouble();
 
     //Menú
-    System.out.println("Elige tu entrada 1 o 2");
+    System.out.println("Elige si la entrada es al palco o al gallinero (1 o 2)");
     int eleccion = s.nextInt();
 
     //Menú 2
