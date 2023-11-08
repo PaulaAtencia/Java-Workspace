@@ -16,7 +16,7 @@ public class t5_7 {
       i--;
     } while ((i > 0) && (!acertado));
     if (acertado) {
-      System.out.println( "La cámara de los secretos ha sido abierta, enemigos del heredero... temed." );
+      System.out.println( "La cámara de los secretos ha sido abierta, temed...jeje." );
     } else {
       System.out.println("Lo siento, has agotado tus 4 oportunidades.");
     }
