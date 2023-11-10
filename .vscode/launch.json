@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "t5_344",
+            "request": "launch",
+            "mainClass": "t5_344",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t5_34",
+            "request": "launch",
+            "mainClass": "t5_34",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
             "name": "t5_33",
             "request": "launch",
             "mainClass": "t5_33",
