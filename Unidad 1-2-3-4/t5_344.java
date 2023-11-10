@@ -16,7 +16,7 @@ public class t5_344 {
           numDig1++;
         }
         numBasura = num2;
-         long reves2 = 0;
+        long reves2 = 0;
         long numDig2 = 0;
         while (numBasura > 0){
           reves2 = ((reves2*10) + (numBasura % 10));
