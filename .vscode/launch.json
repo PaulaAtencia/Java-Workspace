@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "t5_43",
+            "request": "launch",
+            "mainClass": "t5_43",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t5_42",
+            "request": "launch",
+            "mainClass": "t5_42",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t5_41",
+            "request": "launch",
+            "mainClass": "t5_41",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t5_39",
+            "request": "launch",
+            "mainClass": "t5_39",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t5_38",
+            "request": "launch",
+            "mainClass": "t5_38",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t5_36",
+            "request": "launch",
+            "mainClass": "t5_36",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t5_35",
+            "request": "launch",
+            "mainClass": "t5_35",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t5_12",
+            "request": "launch",
+            "mainClass": "t5_12",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
             "name": "t5_344",
             "request": "launch",
             "mainClass": "t5_344",

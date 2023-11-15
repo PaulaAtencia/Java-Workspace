@@ -4,7 +4,7 @@ public class t5_32 {
     long numUs = Long.parseLong(System.console().readLine());
     System.out.print("Los dígitos pares son: ");
     // Lo pone al revés
-    int div = 10;
+   // int div = 10;
     long numBasura = numUs;
     long reves = 0;
     int numDig = 0;
