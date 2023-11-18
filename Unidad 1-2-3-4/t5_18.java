@@ -18,10 +18,12 @@ public class t5_18 {
         menor = num2;
         mayor = num1;
       }
-      for (i = 0; menor < mayor; i++) {
-        menor += 7;
+      
+      for (i = menor; i < mayor; i+=7) {
+        System.out.print(i + " ");
       }
-      System.out.print("El número 7 cabe " +(i - 1) +" veces entre el " +num1 +" y el " +num2);
+      System.out.println();
+      //System.out.print("El número 7 cabe " +(i - 1) +" veces entre el " +num1 +" y el " +num2);
     }
   }
 }
