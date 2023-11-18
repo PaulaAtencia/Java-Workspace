@@ -3,9 +3,7 @@ public class t5_43 {
   public static void main(String[] args) {
     System.out.print("Introduce el numero: ");
     int numUs = Integer.parseInt(System.console().readLine());
-    System.out.print(
-      "Introduce la posicion a partir de la cual quiere partir el número: "
-    );
+    System.out.print("Introduce la posicion a partir de la cual quiere partir el número: ");
     int pos = Integer.parseInt(System.console().readLine());
     // Cuenta los números y calcula el reves
     int numBasura = numUs;
@@ -23,7 +21,7 @@ public class t5_43 {
       numReves /= 10;
     }
     int num2 = 0;
-    for (int i = pos; pos <= numDig; pos++) {
+    for (int i = pos; i <= numDig; i++) {
       num2 = ((num2 * 10) + (numReves % 10));
       numReves /= 10;
     }

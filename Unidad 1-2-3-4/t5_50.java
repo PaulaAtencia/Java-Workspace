@@ -27,7 +27,7 @@ public class t5_50 {
         System.out.print(" ");
 
         System.out.print("* ");
-        for (int i = 0; i < espacios; i++) {
+        for (int j = 0; j < espacios; j++) {
         System.out.print(" ");
         }
         System.out.println("*");
@@ -37,9 +37,6 @@ public class t5_50 {
 
 
 
-
-        }
-
         s.close();
-
     }
+}
