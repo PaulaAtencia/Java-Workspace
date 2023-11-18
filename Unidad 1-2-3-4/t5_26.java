@@ -4,7 +4,8 @@ public class t5_26 {
     System.out.print("Introduzca un número entero:");
     int numeroIntroducido = Integer.parseInt(System.console().readLine());
     System.out.print("Introduce un dígito:");
-    int digito = Integer.parseInt("Contando de izquierda a derecha, el + digito + aparece dentro de "+ numeroIntroducido + "en las siguientes posiciones: ");
+    int digito = Integer.parseInt(System.console().readLine());
+    System.out.print("Contando de izquierda a derecha, el " + digito + " aparece dentro de "+ numeroIntroducido + " en las siguientes posiciones: ");
 
     //le da la vuelta al número
     int numero= numeroIntroducido;
