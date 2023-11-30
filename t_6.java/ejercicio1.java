@@ -9,10 +9,10 @@ public static void main(String[] args) {
     int dado =(int)(Math.random()*6) + 1;
     switch (dado){
 
-        case 1 
-          System.out.print("1");
-          suma += dado;
-          break;
+        case 1:
+        System.out.print("1");
+        suma += dado;
+        break;
         case 2:
           System.out.print("2");
           suma += dado;
