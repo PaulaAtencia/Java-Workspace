@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ejercicio1",
+            "request": "launch",
+            "mainClass": "ejercicio1",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "Graphy",
+            "request": "launch",
+            "mainClass": "Graphy",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t5_40",
+            "request": "launch",
+            "mainClass": "t5_40",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t5_59",
+            "request": "launch",
+            "mainClass": "t5_59",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
             "name": "t5_57",
             "request": "launch",
             "mainClass": "t5_57",
