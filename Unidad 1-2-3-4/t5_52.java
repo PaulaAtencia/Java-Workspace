@@ -20,7 +20,7 @@ public class t5_52 {
     long aux = (long) (primero * Math.pow(10, longitud -1));
     long resultado = (numeroIntroducido - aux) * 10 + primero;
 
-    System.out.print("El número de resultado es: ");
+    System.out.print("El número de resultado es: " + resultado);
 
     s.close();
     }
