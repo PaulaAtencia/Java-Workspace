@@ -1,3 +1,4 @@
+package t_6.java;
 public class ejercicio2 {
 
   public static void main(String[] args) {

@@ -1,7 +1,7 @@
 public class ejercicio21 {
 
   public static void main(String[] args) {
-    final int numMonedas = 8;
+   // final int numMonedas = 8;
     final int lanzadas = 5;
     String posicion = "";
     String moneda = "";

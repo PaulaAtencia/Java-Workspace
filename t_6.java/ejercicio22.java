@@ -1,8 +1,6 @@
 public class ejercicio22 {
 
   public static void main(String[] args){
-    final char cabeza = '@';
-    final int espInicial = 12;
     int nEsp = 0;
     char caracter = '*';
     System.out.print(
