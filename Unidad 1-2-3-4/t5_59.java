@@ -26,7 +26,7 @@ public class t5_59 {
       // pinta la línea
     System.out.print("#");
     for (int i = 1; i < espaciosPorDelante; i++) {
-    System.out.print(" ")}
+    System.out.print(" ");}
     if (altura > 2) {
     System.out.print("#");
     }

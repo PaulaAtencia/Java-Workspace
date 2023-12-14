@@ -11,7 +11,7 @@ public static void main(String[] args) {
       System.out.print("");
 
       // Parte intermedia
-      int espacios = 1;
+      int espacio = 1;
       for (int k = 1; k < espacios - 1; k++) {
         for (int j = 0; j < espacios; j++) {
           System.out.print(" ");

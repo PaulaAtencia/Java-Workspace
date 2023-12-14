@@ -18,7 +18,7 @@ public class ejercicio25 {
     String numero;
     if (esPrimo) {
       System.out.print(" #" + numero + "# ");
-    } else if ((numero % 5) == 0) { // múltiplo de 5
+    } else if ((numero 5) == 0) { // múltiplo de 5
       System.out.print(" [" + numero + "] ");
     } else {
       System.out.print(" " + numero + " ");
