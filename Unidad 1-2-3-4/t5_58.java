@@ -4,7 +4,7 @@ public class t5_58 {
         java.util.Scanner s =new Scanner(System.in);
         System.out.print("Introduce un número");
         long numero=0;
-        int numeroIntroducido;
+        int numeroIntroducido =1;
 
         int suma=0;
         int longitud=0;
@@ -15,7 +15,7 @@ public class t5_58 {
             longitud++;
         }
 
-        System.out.println("La media de sus dígitos es" + (double)suma/longitud :);
+        System.out.println("La media de sus dígitos es" + (double)suma/longitud );
         s.close();
     }
 }

@@ -1,4 +1,4 @@
-public class Ejercicio9 {
+public class ejesicio9 {
   public static void main(String[] args) {
     String PURPLE_BOLD = "\033[1;35m"; // PURPLE
     System.out.println (PURPLE_BOLD + "     _.._    _");

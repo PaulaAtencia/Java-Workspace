@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ejercicio29",
+            "request": "launch",
+            "mainClass": "t_6.java.ejercicio29",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio30",
+            "request": "launch",
+            "mainClass": "t_6.java.ejercicio30",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
             "name": "ejercicio27",
             "request": "launch",
             "mainClass": "t_6.java.ejercicio27",
