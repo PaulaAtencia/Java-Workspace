@@ -22,7 +22,7 @@ public class t7_4 {
           cubo[i] = cuadrado[i]*numero[i];
         }
 
-        //Se mueta los arrays
+        //Se meta los arrays
         System.out.println();
         System.out.print("Número: ");
         for (int i = 0; i < 20; i++){
