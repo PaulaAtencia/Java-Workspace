@@ -1,105 +1,103 @@
 public class t7_12 {
 
   public static void main(String[] args) {
+    int[] n = new int[10];
+    int numero;
+    int origen;
+    int destino;
+    int auxOrigen;
+    int auxDestino;
+    int limite;
 
-    int [] array =new int [10];
-    
-    //LLamamos 
-            int i;
-            int nInicial;
-            int nFinal;
-            boolean valido;
+    System.out.println("Este programa cambia la posición en la tabla.");
+    System.out.println("En primer lugar, introduce 10 números seguidos: ");
+    System.out.println();
 
-    System.out.print("Introduzca 10 números separados por la INTRO");
-
-    for (i =0; i< 10;i++){
-        }
-
-        //Pinta la tabla 
-        System.out.println("\n\nArray original:");
-        System.out.println("\n┌────────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┐");
-        System.out.print("│ Índice ");
-        for (i = 0; i < 10; i++) {
-        System.out.printf("│%4d ", i);
-        System.out.print("│ Índice ");
-        }
-
-        for (i = 0; i < 10; i++) {
-        System.out.printf("│%4d ", i);
-        }
-        //Pinta la tabla 
-        System.out.println("│\n├────────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼────┤");
-        System.out.print("│ Valor ");
-
-        for (i = 0; i < 10; i++) {
-        System.out.printf("│%4d ", n[i]);
-        }
-        System.out.println("│\n└────────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┘");
-
-        
-
-        int cont = 0;
-
-        while (cont < array.length) {
-        System.out.println("Introduce un número: ");
-        array[cont] = Integer.parseInt(System.console().readLine());
-        cont++;
-        }   
-
-        //Empezar por el final 
-            do {
-                valido = true;
-                System.out.print("Introduzca la posición inicial (0 - 9): ");
-                nInicial = Integer.parseInt(System.console().readLine());
-                if ((nInicial < 0) || (nInicial > 9)) {
-                System.out.println("Valor incorrecto, debe ser un número entre el 0 y el 9.");
-                valido = false;
-                }
-
-                System.out.print("Introduzca la posición final (0 - 9): ");
-                nFinal = Integer.parseInt(System.console().readLine());
-                if ((nFinal < 0) || (nFinal > 9)) {
-                System.out.println("Valor incorrecto, debe ser un número entre el 0 y el 9.");
-                valido = false;
-                }
-
-                if (nInicial >= nFinal) {
-                System.out.println("Valores incorrectos, la posición inicial debe ser menor que la posición final.");
-                valido = false;
-                }
-
-                while (!valido);
-            // Muestra de nuevo el array original.
-                System.out.println("\n\nArray original:");
-                System.out.println("\n┌────────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┐");
-                System.out.print("│ Índice ");
-
-            for (i = 0; i < 10; i++) {
-                System.out.printf("│%4d ", i);
-                }
-                System.out.println("│\n├────────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┤");
-                System.out.print("│ Valor ");
-                for (i = 0; i < 10; i++) {
-                System.out.printf("│%4d ", n[i]);
-                }
-                System.out.println("│\n└────────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┘");
-                // Copia el array n en resultado.
-               
-                for(i=0; i<10; i++){
-               // resultado[i]= n[1];
-                }
-
-                //resultado[nFinal] = n[nInicial];
-                for (i = nFinal + 1; i < 10; i++);
-                //resultado[i] = n[i - 1];
-                //resultado[0] = n[9];
-                for (i = 0; i < nInicial; i++);
-                //resultado[i + 1] = n[i];
-
-                //Muestra el resultado
-                for(i=0; i<10;i++);
-                System.out.println("│\n└────────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┘");
-
-        }
+    for (int i = 0; i < 10; i++) {
+      numero = Integer.parseInt(System.console().readLine());
+      n[i] = numero;
     }
+
+    System.out.println("\nArray original:");
+    System.out.println("\n┌────────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┐");
+    System.out.print("│ Índice ");
+    for (int i = 0; i < 10; i++) {
+      System.out.printf("│%4d ", i);
+    }
+    System.out.println("│\n├────────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┤");
+    System.out.print("│ Valor  ");
+    for (int i = 0; i < 10; i++) {
+      System.out.printf("│%4d ", n[i]);
+    }
+    System.out.println("│\n└────────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┘");
+
+    System.out.println();
+    System.out.println(
+      "Introduce la posición del número que quieras cambiar: "
+    );
+    origen = Integer.parseInt(System.console().readLine());
+    System.out.println();
+    System.out.println("Introduce la posición en la que lo quieres colocar: ");
+    destino = Integer.parseInt(System.console().readLine());
+    System.out.println();
+
+    auxOrigen = n[origen];
+    auxDestino = n[destino];
+    limite = destino;
+
+    if (
+      (origen < destino) &&
+      (origen >= 0) &&
+      (origen <= 9) &&
+      (destino >= 0) &&
+      (destino <= 9)
+    ) {
+      do {
+        n[origen] = n[origen + 1];
+        origen++;
+      } while (origen < destino);
+
+      do {
+        if (destino == 9) {
+          n[destino] = auxOrigen;
+          auxOrigen = auxDestino;
+          auxDestino = n[0];
+          destino++;
+        } else {
+          n[destino] = auxOrigen;
+          auxOrigen = auxDestino;
+          auxDestino = n[destino + 1];
+          destino++;
+        }
+      } while (destino <= 9);
+
+      destino = 0;
+
+      do {
+        n[destino] = auxOrigen;
+        auxOrigen = auxDestino;
+        auxDestino = n[destino + 1];
+        destino++;
+      } while (destino < limite);
+
+      System.out.println("\nArray final:");
+      System.out.println(
+        "\n┌────────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┐"
+      );
+      System.out.print("│ Índice ");
+      for (int i = 0; i < 10; i++) {
+        System.out.printf("│%4d ", i);
+      }
+      System.out.println("│\n├────────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┤");
+      System.out.print("│ Valor  ");
+      for (int i = 0; i < 10; i++) {
+        System.out.printf("│%4d ", n[i]);
+      }
+      System.out.println("│\n└────────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┘");
+    } else {
+      System.out.println(
+        "Parece que alguno de los datos no es correcto. Míralos de nuevo."
+      );
+    }
+  }
 }
