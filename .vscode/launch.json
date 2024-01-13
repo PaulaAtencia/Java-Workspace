@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "t7_17",
+            "request": "launch",
+            "mainClass": "t7_17",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
+            "name": "t7_16",
+            "request": "launch",
+            "mainClass": "t7_16",
+            "projectName": "Java-Workspace_9c3df4c0"
+        },
+        {
+            "type": "java",
             "name": "t7_15",
             "request": "launch",
             "mainClass": "t7_15",

@@ -1,9 +1,7 @@
 public class t7_5 {
 
   public static void main(String[] args) {
-    System.out.println(
-      "Este programa resuelve ecuaciones de primer grado del tipo ax + b = 0"
-    );
+    System.out.println("Este programa resuelve ecuaciones de primer grado del tipo ax + b = 0");
     System.out.print("Por favor, introduzca el valor de a: ");
     Double a = Double.parseDouble(System.console().readLine());
     System.out.print("Ahora introduzca el valor de b: ");
